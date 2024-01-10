@@ -14,7 +14,7 @@
             {{ $message }}
         </div>
         @endif
-        <a href="{{ route('product.create') }}"><x-primary-button class="m-4"><i class="bi bi-plus-circle"></i>{{ __(' Tambah Produk Baru ') }}</a></x-primary-button>
+        <a href="{{ route('product.create') }}"><x-primary-button class="m-4"><i class="bi bi-plus-circle"></i>{{ __(' Tambah Produk ') }}</a></x-primary-button>
         <div class="relative overflow-x-auto sm:rounded-lg p-3">
         <table class="w-full p-2 text-md text-left text-gray-800">
             <thead class="text-sm text-gray-800 uppercase bg-gray-200 dark:bg-gray=700 dark:text-gray-600">
